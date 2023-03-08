@@ -12,3 +12,5 @@ In this project, I am creating and designing an entire web page with some basic 
 - basic flexbox
 
 ## Live Preview
+
+https://s3nsu1k4n.github.io/landing-page/
