@@ -1,9 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+
 .header-section{
     background-color: #1F2937;
+    color: white;
+}
+
+.header-section > .top, .header-section > .bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-section > .top > div{
+    flex: 1;
+    text-align: center;
+}
+
+.header-section > .top > .logo > h1{
+    font-size: 24px;
+}
+
+.header-section > .bottom > .text > .main{
+    font-size: 48px;
+}
+
+.header-section > .bottom > .text > .secondary{
+    font-size: 18px;
+}
+
+.header-section > .bottom > div{
+    flex: 1;
 }
 
 .info-section{
     background-color: white;
+}
+
+.info-section > .header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .quote-section{
@@ -14,3 +55,18 @@
     background-color: #1F2937;
 }
 
+button{
+    background-color: #3882f6;
+}
+
+
+
+
+
+
+
+.quote-section > .text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
