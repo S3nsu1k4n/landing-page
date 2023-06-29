@@ -4,7 +4,7 @@ body{
     margin: 0;
     font-family: 'Roboto';
 }
-
+ 
 
 .header-section{
     background-color: #1F2937;
@@ -23,6 +23,17 @@ body{
 
 .header-section > .top > .logo > h1{
     font-size: 24px;
+}
+
+.header-section > .top > .header-links {
+    /* border-style: solid; */
+    /* border-color: aquamarine; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 16px;
 }
 
 .header-section > .bottom > .text > .main{
