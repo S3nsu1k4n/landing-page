@@ -36,6 +36,18 @@ body{
     font-size: 16px;
 }
 
+.header-section > .bottom{
+    display: flex;
+    gap: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+
+.header-section > .bottom > .text{
+    flex: 1;
+}
+
 .header-section > .bottom > .text > .main{
     font-size: 48px;
 }
@@ -46,6 +58,14 @@ body{
 
 .header-section > .bottom > div{
     flex: 1;
+}
+
+.image{
+    background-color:rgb(157, 171, 172);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .info-section{
@@ -68,6 +88,16 @@ body{
 
 button{
     background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
 
