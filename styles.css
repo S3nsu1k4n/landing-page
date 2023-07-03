@@ -147,11 +147,31 @@ button{
     padding-bottom: 10px;
     font-size: 16px;
     margin: 4px 2px;
+    height: 50px;
 }
 
 
+.marketing-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.marketing-section > .main_area{
+    border-radius: 8px;
+    width: 77%;
+    padding: 20px;
+    margin: 60px;
+    background-color:  #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.marketing-section > .main_area > .text{
+    color: white;
+}
 
-
-
+.marketing-section > .main_area > button{
+    border: solid 2px;
+}
